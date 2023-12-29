@@ -1,13 +1,13 @@
 import './Navbar.css'
 
-import React, { useState } from 'react';
-
 
 
     const NavBar = ({ activeItem, handleItemClick }) => {
 
     return (
-      <div>
+
+      <div className='NavContainer'>
+
         <ul>
         <li className={activeItem === 'Home' ? 'active' : ''} onClick={() => handleItemClick('Home')}>
           Home

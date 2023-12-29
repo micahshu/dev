@@ -6,6 +6,9 @@ import MainContent from './Sections/MainContentComponents/MainContent'
 import Footer from './Sections/FooterComponents/Footer'
 
 const App = () => {
+
+  // Handles Menu Change. Passes props from Navbar to Main content
+
   const [activeItem, setActiveItem] = useState('Home');
   const handleItemClick = (item) => {
     setActiveItem(item);
