@@ -2,6 +2,7 @@
 import Home from './PageViews/Home'
 import Contact from './PageViews/Contact';
 import Projects from './PageViews/Projects';
+
 import './MainContent.css'
 
 const MainContent = ({ activeItem }) => {

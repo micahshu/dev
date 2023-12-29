@@ -1,3 +1,4 @@
+
 import './Home.css'
 
 const Home = () => { 
@@ -8,6 +9,7 @@ const Home = () => {
             <h2 className="subHeaderText">Web Developer</h2>
             <p className="pageContent">Maecenas eget ante eu lectus venenatis dignissim. Donec efficitur, metus non ultrices hendrerit, eros sapien ullamcorper elit, et rutrum felis nulla eu nisl. Quisque vitae imo mollis mi, eu mollis nisi enim ac metus. Donec ornare, eros non sagittis sollicitudin</p>
         </div>
+
     )
 }
 
