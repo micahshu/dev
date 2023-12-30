@@ -1,0 +1,7 @@
+.footerSection {
+    margin: auto;
+    display: flex;
+    width:60vw;
+    text-align:left;
+    padding: 10px;
+}

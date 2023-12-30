@@ -1,0 +1,49 @@
+.tabs {
+    display: flex;
+    
+  }
+  
+  button {
+    font-size: 16px;
+    font-weight: bold;
+    width:50%;
+    cursor: pointer;
+    padding: 15px 15px;
+    border: none;
+    color:white;
+    margin-right: 5px;
+  }
+  button.dark {
+    background-color: #313639;
+    margin: 0px;
+  }
+  button.light {
+    color:black;
+    background-color: #F0DCCA;
+    margin: 0px;
+  }
+  
+  button.active.dark {
+    background-color: #42494E;
+  }
+  button.active.light {
+    background-color: #E1C6A5;
+  }
+  
+  .tab-content {
+    margin-top: 20px;
+    text-align: left;
+  }
+  .tabSwitcher.dark {
+    background-color: #42494E;
+    
+  }
+  .tabSwitcher.light {
+    background-color: #E1C6A5;
+  }
+  .scroll {
+    max-height: 150px;
+    overflow-y: scroll;
+    padding: 15px;
+    margin: 0px;
+  }

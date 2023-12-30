@@ -5,11 +5,12 @@
     margin: auto;
 }
 .mainContent.dark{
-    border: medium dashed blue;
+    border: 4px solid white;
+    
 
 }
 
 .mainContent.light{
-    border: medium dashed pink;
+    border: 4px solid black;
 
 }

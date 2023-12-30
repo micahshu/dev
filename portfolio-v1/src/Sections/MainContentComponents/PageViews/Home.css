@@ -7,12 +7,28 @@ grid-template-rows: repeat(5, 1fr);
 grid-column-gap: 0px;
 grid-row-gap: 0px;
 }
-.headerText {
+.headerGrid {
     grid-area: 1 / 1 / 2 / 3;
+    margin-top:0px;
+    margin-bottom: 0px;
+    padding:10px;
+    text-align:left;
+}
+.headerText {
+    margin: 0px;
 }
 .subHeaderText {
-    grid-area: 2 / 1 / 3 / 3;
+    margin:0px;
+    
+}
+
+.pageContentGrid {
+    grid-area: 5 / 4 / 6 / 6;
 }
 .pageContent {
-    grid-area: 5 / 4 / 6 / 6;
+    text-align: left;
+    padding: 5px;
+    max-height: 150px;
+    overflow-y: scroll;
+    font-weight:bold;
 }
