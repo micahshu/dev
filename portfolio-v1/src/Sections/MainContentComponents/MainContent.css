@@ -4,3 +4,12 @@
     width: 60vw;
     margin: auto;
 }
+.mainContent.dark{
+    border: medium dashed blue;
+
+}
+
+.mainContent.light{
+    border: medium dashed pink;
+
+}
