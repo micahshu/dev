@@ -1,7 +1,19 @@
 .App {
   text-align: center;
+  height:100vh;
 }
-
+.App.dark {
+  color:white;
+  background-color: #313639;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.App.light {
+  color:black;
+  background-color: #F0DCCA;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

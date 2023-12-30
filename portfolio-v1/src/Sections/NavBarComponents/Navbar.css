@@ -1,15 +1,18 @@
 ul {
+  width: 60vw;
     list-style-type: none;
-    margin: 0;
+    margin: auto;
     padding: 0;
+    display:flex;
+    justify-content: flex-end;
   }
 
 li {
-    display:inline;
+    font-weight: bold;
     padding:10px;
-}
+  }
 
 .NavContainer {
-  margin-top: 15vh;
+  padding-top: 15vh;
 
 }
