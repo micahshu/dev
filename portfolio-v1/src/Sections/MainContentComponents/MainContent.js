@@ -15,9 +15,9 @@ const MainContent = ({ activeItem }) => {
       case 'Home':
         return <div className={`mainContent ${isDarkMode ? 'dark' : 'light'}`}><Home /></div>;
       case 'Projects':
-        return <div className="mainContent"><Projects /></div>;
+        return <div className={`mainContent ${isDarkMode ? 'dark' : 'light'}`}><Projects /></div>;
       case 'Contact':
-        return <div className="mainContent"><Contact /></div>;
+        return <div className={`mainContent ${isDarkMode ? 'dark' : 'light'}`}><Contact /></div>;
       default:
         return null;
     }
