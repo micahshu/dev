@@ -12,7 +12,7 @@ const Home = () => {
             </div>
             <div className='pageContentGrid'> 
 
-            <TabSwitcher />            
+                       
             </div>
             
         </div>
